@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/universal:linux
+FROM mcr.microsoft.com/vscode/devcontainers/universal:latest
 RUN wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add - && \
     sudo add-apt-repository "deb https://apt.llvm.org/focal/ llvm-toolchain-focal-13 main" && \
     sudo apt-get -y update && \
