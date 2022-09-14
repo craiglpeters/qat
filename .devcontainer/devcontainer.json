@@ -20,5 +20,6 @@
         "ms-vscode.cpptools",
         "ms-python.python"
     ],
-    "postCreateCommand": "git submodule update --init --recursive && pip install -r requirements.txt"
+    "postCreateCommand": "git submodule update --init --recursive && pip install -r requirements.txt",
+    "postStartCommand": "mkdir Debug ; cd Debug ; cmake .. ; make qat ; ./qir/qat/Apps/qat --apply --profile default -S ../qir/qir-tests/reduction_tests/inlining-input.ll > qat_test_inlining_output.txt"
 }
