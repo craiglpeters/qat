@@ -2,6 +2,8 @@
 
 Thank you for your interest in contributing to QAT!
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)]([COPIED-URL](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=536332279&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2))
+
 There are many ways in which you can contribute to QAT, whether by contributing
 a feature or by engaging in discussions; we value contributions in all shapes
 and sizes! The following sections may give some ideas for how you can get
